@@ -38,9 +38,8 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('홈')),
       body: Center(
-        child: ElevatedButton(
-          onPressed: () => context.go('/SaveUrlTutorial'),
-          child: const Text('튜토리얼 보러가기'),
+        child: Text(
+          '웹 페이지 만드는중..'
         ),
       ),
     );
